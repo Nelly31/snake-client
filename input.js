@@ -28,6 +28,8 @@ stdin.on('data', (key) => {
     connection.write('Move: left');
   } if (key === 'p') {
     connection.write('Say: Wooo Hooo');
+  } if (key === 'l') {
+    connection.write('Say: Ima eat it');
   }
 });
 
