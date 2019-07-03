@@ -24,3 +24,15 @@ const connect = function() {
 
 
 module.exports = {connect};
+
+// conn.on('connect', () => {
+//   setTimeout(function() {
+//     conn.write("Move: up");
+//   }, 50);
+// });
+
+// conn.on('connect', () => {
+//   setInterval(function() {
+//     conn.write("Move: up");
+//   }, 100);
+// });
