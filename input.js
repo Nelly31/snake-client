@@ -26,6 +26,8 @@ stdin.on('data', (key) => {
     connection.write('Move: down');
   } if (key === 'a') {
     connection.write('Move: left');
+  } if (key === 'p') {
+    connection.write('Say: Wooo Hooo');
   }
 });
 
