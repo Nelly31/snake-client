@@ -29,12 +29,4 @@ stdin.on('data', (key) => {
   }
 });
 
-
-
-// conn.on('connect', () => {
-//   setInterval(function() {
-//     conn.write("Move: up");
-//   }, 100);
-// });
-
 module.exports = {setupInput};
